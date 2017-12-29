@@ -15,6 +15,8 @@
 		3BE41C5A1FF68D80004F4D25 /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C581FF68D80004F4D25 /* FileReader.cpp */; };
 		3BE41C5D1FF6936F004F4D25 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C5B1FF6936F004F4D25 /* Object.cpp */; };
 		3BE41C611FF694A8004F4D25 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C5F1FF694A8004F4D25 /* Plane.cpp */; };
+		3BE41C641FF70091004F4D25 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C621FF70091004F4D25 /* Sphere.cpp */; };
+		3BE41C671FF70539004F4D25 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C651FF70539004F4D25 /* Triangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,10 @@
 		3BE41C5C1FF6936F004F4D25 /* Object.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
 		3BE41C5F1FF694A8004F4D25 /* Plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
 		3BE41C601FF694A8004F4D25 /* Plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
+		3BE41C621FF70091004F4D25 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		3BE41C631FF70091004F4D25 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sphere.hpp; sourceTree = "<group>"; };
+		3BE41C651FF70539004F4D25 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		3BE41C661FF70539004F4D25 /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				3BE41C5C1FF6936F004F4D25 /* Object.hpp */,
 				3BE41C5F1FF694A8004F4D25 /* Plane.cpp */,
 				3BE41C601FF694A8004F4D25 /* Plane.hpp */,
+				3BE41C621FF70091004F4D25 /* Sphere.cpp */,
+				3BE41C631FF70091004F4D25 /* Sphere.hpp */,
+				3BE41C651FF70539004F4D25 /* Triangle.cpp */,
+				3BE41C661FF70539004F4D25 /* Triangle.hpp */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -170,7 +180,9 @@
 				3BE41C2D1FE7851F004F4D25 /* Ray.cpp in Sources */,
 				3BE41C5A1FF68D80004F4D25 /* FileReader.cpp in Sources */,
 				3BE41C611FF694A8004F4D25 /* Plane.cpp in Sources */,
+				3BE41C671FF70539004F4D25 /* Triangle.cpp in Sources */,
 				3BE41C5D1FF6936F004F4D25 /* Object.cpp in Sources */,
+				3BE41C641FF70091004F4D25 /* Sphere.cpp in Sources */,
 				3BE41C1E1FE7686C004F4D25 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

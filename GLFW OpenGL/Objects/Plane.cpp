@@ -17,6 +17,8 @@ Plane::Plane(glm::vec3 color, glm::vec3 diffuse_color, glm::vec3 specular_color,
 
 Plane::~Plane(){}
 
+
+// Intersection of a plane with a plane
 float Plane::getIntersection(Ray ray){
     float a = glm::dot(ray.getRayDirection(),normal);
     if(a == 0)
