@@ -12,6 +12,7 @@
 		3BE41C281FE768F0004F4D25 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE41C271FE768F0004F4D25 /* libGLEW.2.1.0.dylib */; };
 		3BE41C2A1FE7692A004F4D25 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE41C291FE7692A004F4D25 /* libglfw.3.2.dylib */; };
 		3BE41C2D1FE7851F004F4D25 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C2B1FE7851F004F4D25 /* Ray.cpp */; };
+		3BE41C5A1FF68D80004F4D25 /* FileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C581FF68D80004F4D25 /* FileReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		3BE41C291FE7692A004F4D25 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		3BE41C2B1FE7851F004F4D25 /* Ray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
 		3BE41C2C1FE7851F004F4D25 /* Ray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ray.hpp; sourceTree = "<group>"; };
+		3BE41C581FF68D80004F4D25 /* FileReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileReader.cpp; sourceTree = "<group>"; };
+		3BE41C591FF68D80004F4D25 /* FileReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileReader.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 		3BE41C1C1FE7686C004F4D25 /* GLFW OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				3BE41C581FF68D80004F4D25 /* FileReader.cpp */,
+				3BE41C591FF68D80004F4D25 /* FileReader.hpp */,
 				3BE41C1D1FE7686C004F4D25 /* main.cpp */,
 				3BE41C2B1FE7851F004F4D25 /* Ray.cpp */,
 				3BE41C2C1FE7851F004F4D25 /* Ray.hpp */,
@@ -145,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE41C2D1FE7851F004F4D25 /* Ray.cpp in Sources */,
+				3BE41C5A1FF68D80004F4D25 /* FileReader.cpp in Sources */,
 				3BE41C1E1FE7686C004F4D25 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
