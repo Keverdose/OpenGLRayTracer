@@ -15,3 +15,25 @@
 #include "Plane.hpp"
 #include "Sphere.hpp"
 #include "Triangle.hpp"
+#include "Light.hpp"
+#include "Camera.hpp"
+
+struct DataReader{
+    Camera camera;
+    std::vector<Object*> objects;
+    std::vector<Light*> lights;
+};
+
+class DataReaderParser{
+public:
+    // Reads scene data from a file
+    static DataReader readSceneData(const std::string fileName);
+    
+private:
+    static glm::vec3 readVec3(std::istringstream& stream);
+    static Camera readCamera(std::istringstream& stream);
+    static Plane* readPlane(std::istringstream& stream);
+    static Sphere* readSphere(std::istringstream& stream);
+    static Light* readLight(std::istringstream& stream);
+    static Triangle* readTriangle(std::istringstream& stream);
+};

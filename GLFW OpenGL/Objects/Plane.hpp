@@ -14,7 +14,7 @@
 class Plane : public Object{
 public:
     Plane();
-    Plane(glm::vec3 color, glm::vec3 diffuse_color, glm::vec3 specular_color, float shininess);
+    Plane(glm::vec3 normal, glm::vec3 position, glm::vec3 color, glm::vec3 diffuse_color, glm::vec3 specular_color, float shininess);
     ~Plane();
     
     glm::vec3 getNormal(glm::vec3 point);

@@ -10,7 +10,7 @@
 
 Plane::Plane(){}
 
-Plane::Plane(glm::vec3 color, glm::vec3 diffuse_color, glm::vec3 specular_color, float shininess) : Object(color, diffuse_color, specular_color,shininess){
+Plane::Plane(glm::vec3 normal, glm::vec3 position, glm::vec3 color, glm::vec3 diffuse_color, glm::vec3 specular_color, float shininess) : Object(color, diffuse_color, specular_color,shininess){
     this->normal = glm::normalize(normal);
     this->position = position;
 }
