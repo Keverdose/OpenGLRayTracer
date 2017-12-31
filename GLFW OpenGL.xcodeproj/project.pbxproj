@@ -17,6 +17,9 @@
 		3BE41C611FF694A8004F4D25 /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C5F1FF694A8004F4D25 /* Plane.cpp */; };
 		3BE41C641FF70091004F4D25 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C621FF70091004F4D25 /* Sphere.cpp */; };
 		3BE41C671FF70539004F4D25 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C651FF70539004F4D25 /* Triangle.cpp */; };
+		3BE41C6B1FF8797C004F4D25 /* DataReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C691FF8797C004F4D25 /* DataReader.cpp */; };
+		3BE41C6E1FF87A0C004F4D25 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C6C1FF87A0C004F4D25 /* Camera.cpp */; };
+		3BE41C711FF87A71004F4D25 /* Light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE41C6F1FF87A71004F4D25 /* Light.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +52,12 @@
 		3BE41C631FF70091004F4D25 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sphere.hpp; sourceTree = "<group>"; };
 		3BE41C651FF70539004F4D25 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		3BE41C661FF70539004F4D25 /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		3BE41C691FF8797C004F4D25 /* DataReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataReader.cpp; sourceTree = "<group>"; };
+		3BE41C6A1FF8797C004F4D25 /* DataReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DataReader.hpp; sourceTree = "<group>"; };
+		3BE41C6C1FF87A0C004F4D25 /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		3BE41C6D1FF87A0C004F4D25 /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		3BE41C6F1FF87A71004F4D25 /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Light.cpp; sourceTree = "<group>"; };
+		3BE41C701FF87A71004F4D25 /* Light.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Light.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,10 @@
 				3BE41C1D1FE7686C004F4D25 /* main.cpp */,
 				3BE41C2B1FE7851F004F4D25 /* Ray.cpp */,
 				3BE41C2C1FE7851F004F4D25 /* Ray.hpp */,
+				3BE41C6C1FF87A0C004F4D25 /* Camera.cpp */,
+				3BE41C6D1FF87A0C004F4D25 /* Camera.hpp */,
+				3BE41C6F1FF87A71004F4D25 /* Light.cpp */,
+				3BE41C701FF87A71004F4D25 /* Light.hpp */,
 			);
 			path = "GLFW OpenGL";
 			sourceTree = "<group>";
@@ -124,6 +137,8 @@
 			children = (
 				3BE41C581FF68D80004F4D25 /* FileReader.cpp */,
 				3BE41C591FF68D80004F4D25 /* FileReader.hpp */,
+				3BE41C691FF8797C004F4D25 /* DataReader.cpp */,
+				3BE41C6A1FF8797C004F4D25 /* DataReader.hpp */,
 			);
 			path = FileReader;
 			sourceTree = "<group>";
@@ -185,10 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE41C711FF87A71004F4D25 /* Light.cpp in Sources */,
 				3BE41C2D1FE7851F004F4D25 /* Ray.cpp in Sources */,
 				3BE41C5A1FF68D80004F4D25 /* FileReader.cpp in Sources */,
 				3BE41C611FF694A8004F4D25 /* Plane.cpp in Sources */,
 				3BE41C671FF70539004F4D25 /* Triangle.cpp in Sources */,
+				3BE41C6E1FF87A0C004F4D25 /* Camera.cpp in Sources */,
+				3BE41C6B1FF8797C004F4D25 /* DataReader.cpp in Sources */,
 				3BE41C5D1FF6936F004F4D25 /* Object.cpp in Sources */,
 				3BE41C641FF70091004F4D25 /* Sphere.cpp in Sources */,
 				3BE41C1E1FE7686C004F4D25 /* main.cpp in Sources */,
