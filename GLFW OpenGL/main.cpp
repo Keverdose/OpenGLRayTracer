@@ -4,7 +4,7 @@
 #include "DataReader.hpp"
 
 #include <glm/glm.hpp>
-#include <CImg.h>
+#include "CImg.h"
 using namespace cimg_library;
 
 #include <vector>
@@ -102,9 +102,9 @@ int main(){
     cout << "Outputting...";
     
     //determine file name
-    osstringstream oss;
+    ostringstream oss;
     if(aadepth > 1){
-        oss < dataName << "aa" << aadepth << ".bmp";
+        oss << dataName << "aa" << aadepth << ".bmp";
     }
     else{
         oss << dataName << ".bmp";

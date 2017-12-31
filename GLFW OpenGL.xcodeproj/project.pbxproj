@@ -326,6 +326,7 @@
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
 					/usr/local/include/glm,
+					/usr/local/Cellar/cimg/2.1.7/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,6 +344,7 @@
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
 					/usr/local/include/glm,
+					/usr/local/Cellar/cimg/2.1.7/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
