@@ -85,9 +85,8 @@
 		3BE41C1C1FE7686C004F4D25 /* GLFW OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				3BE41C681FF708F5004F4D25 /* FileReader */,
 				3BE41C5E1FF69489004F4D25 /* Objects */,
-				3BE41C581FF68D80004F4D25 /* FileReader.cpp */,
-				3BE41C591FF68D80004F4D25 /* FileReader.hpp */,
 				3BE41C1D1FE7686C004F4D25 /* main.cpp */,
 				3BE41C2B1FE7851F004F4D25 /* Ray.cpp */,
 				3BE41C2C1FE7851F004F4D25 /* Ray.hpp */,
@@ -118,6 +117,15 @@
 				3BE41C661FF70539004F4D25 /* Triangle.hpp */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		3BE41C681FF708F5004F4D25 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				3BE41C581FF68D80004F4D25 /* FileReader.cpp */,
+				3BE41C591FF68D80004F4D25 /* FileReader.hpp */,
+			);
+			path = FileReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
